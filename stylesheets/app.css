@@ -125,6 +125,7 @@ button {  width: auto; overflow: visible; }
 #buttons {
   text-align: center;
   height: 460px;
+  margin-bottom: 750px;
 }
 
 #buttons a {
@@ -137,7 +138,7 @@ button {  width: auto; overflow: visible; }
   background: transparent url('../images/button.png');
   line-height: 100px;
 
-  font-family: Georgia, serif;
+  font-family: Helvetica, serif;
   color: #444;
   font-size: 11px;
   font-weight: bold;
@@ -159,13 +160,17 @@ button {  width: auto; overflow: visible; }
 
 #pic {
   width: 180px;
-  background: transparent url('../images/joel-bauer.jpg') no-repeat center right;
+  background: transparent url('../images/trick.png') no-repeat center right;
   height: 100px;
   margin: 0 30px 40px 30px;
   float: left;
 }
 
-#top-bar, #bottom-bar {
+#top-bar {
+  text-align: center;
+}
+
+#bottom-bar {
   background: #111;
   padding: 10px;
   color: white;
